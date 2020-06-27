@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Starbucks Suite" duration-ms="15885" started-at="2020-05-13T18:44:54 CDT" finished-at="2020-05-13T18:45:09 CDT">
+    <groups>
+    </groups>
+    <test name="Test Case 1" duration-ms="655" started-at="2020-05-13T18:44:54 CDT" finished-at="2020-05-13T18:44:54 CDT">
+      <class name="testCases.TestCase1">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:testCases.TestCase1@5f2108b5]" name="testCase1" duration-ms="623" started-at="2020-05-13T18:44:54 CDT" finished-at="2020-05-13T18:44:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- testCases.TestCase1 -->
+    </test> <!-- Test Case 1 -->
+    <test name="Test Case 2" duration-ms="1624" started-at="2020-05-13T18:44:54 CDT" finished-at="2020-05-13T18:44:56 CDT">
+      <class name="testCases.TestCase2">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:testCases.TestCase2@10bdf5e5]" name="testCase2" duration-ms="1624" started-at="2020-05-13T18:44:54 CDT" finished-at="2020-05-13T18:44:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- testCases.TestCase2 -->
+    </test> <!-- Test Case 2 -->
+    <test name="Test Case 3" duration-ms="9109" started-at="2020-05-13T18:44:56 CDT" finished-at="2020-05-13T18:45:05 CDT">
+      <class name="testCases.TestCase3">
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:testCases.TestCase3@3c0f93f1]" name="testCase3" duration-ms="9108" started-at="2020-05-13T18:44:56 CDT" finished-at="2020-05-13T18:45:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- testCases.TestCase3 -->
+    </test> <!-- Test Case 3 -->
+    <test name="Test Case 4" duration-ms="4403" started-at="2020-05-13T18:45:05 CDT" finished-at="2020-05-13T18:45:09 CDT">
+      <class name="testCases.TestCase4">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TestCase4@3327bd23]" name="setup" is-config="true" duration-ms="6056" started-at="2020-05-13T18:44:48 CDT" finished-at="2020-05-13T18:44:54 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\\test\\resources\\drivers\\]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCase4(java.lang.String)[pri:0, instance:testCases.TestCase4@3327bd23]" name="testCase4" duration-ms="4401" started-at="2020-05-13T18:45:05 CDT" finished-at="2020-05-13T18:45:09 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Napoles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:testCases.TestCase4@3327bd23]" name="closePage" is-config="true" duration-ms="4098" started-at="2020-05-13T18:45:09 CDT" finished-at="2020-05-13T18:45:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- testCases.TestCase4 -->
+    </test> <!-- Test Case 4 -->
+  </suite> <!-- Starbucks Suite -->
+</testng-results>
